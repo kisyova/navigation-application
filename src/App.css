@@ -28,6 +28,57 @@
   color: #61dafb;
 }
 
+.font-link {
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Gotu', sans-serif;
+}
+ 
+body {
+  background-color: #fef9ef;
+  font-family: 'Dongle', sans-serif;
+  font-size: 30px;
+}
+
+nav {
+  background-color: #ffcb77 !important;
+}
+
+nav a {
+  font-size: 37px;
+  color: #227c9d !important;
+}
+
+nav a:hover {
+  text-decoration: underline !important;
+}
+
+.lenLFL {
+  background: transparent !important;
+}
+
+.lenLFL:hover {
+  background-color: white !important;
+}
+
+#aboutDiv, #footer, #eventsDiv, #homeDiv {
+  text-align: center;
+}
+
+table {
+  border: 2px solid #227C9D;
+  width: 800px;
+  height: 200px;
+  margin-left: 22%;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
